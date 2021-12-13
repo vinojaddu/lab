@@ -1,0 +1,57 @@
+step 1 : Open Google cloud platform
+step 2 : Open Console
+step 3 : Open hamburger menu 
+step 4 : Choose API and services and select Library
+step 5 : Search App Engine admin API and enable it
+step 6 : Open Google cloud shell
+step 7 : Type the command : gsutil -m cp -r gs://spls/gsp067/python-docs-samples .
+          To install the python files
+step 8 : To get inside the folder type the following command : 
+             cd python-docs-samples/appengine/standard_python3/hello_world
+step 9 : Type this command to view the output 
+             dev_appserver.py app.yaml
+step 10 : View in web Preview
+Step 11 : Open in editor to make changes 
+ To deploy :
+ step 1 : cd python-docs-samples/appengine/standard_python3/hello_world
+ step 2 : gcloud app deploy
+ step 3 : gcloud app browse
+
+
+
+
+
+Step 1 : Open Google cloud platform in browser
+
+Step 2 : Click Console
+
+Step 3 : Click App Engine
+
+Step 4 : click choose an app engine environment
+
+Step 5 : Click Python under Standard environment
+
+Step 6 : Click QuickStart
+
+Step 7 : Click Install and Initialize SDK (Download SDK file if not downloaded )
+
+Step 8 : Extract the downloaded file to desktop 
+
+Step 9 : Open Terminal in Desktop and type : 
+                ./google-cloud-sdk/install.sh
+
+Step 10 : Open terminal in BIN folder of google cloud sdk and run gcloud init
+
+Step 11 : Copy my project ID from Google cloud platform 
+
+         Type cd in terminal and 
+
+        follow the first two commands from the ADDITIONAL PREREQUISITES
+
+Step 12 : Open terminal in Desktop and do this
+          
+          git clone https://github.com/GoogleCloudPlatform/python-docs-samples
+
+Step 13 : Now we need to create the python environment so follow the RUN HELLO WORLD COMMANDS
+
+Step 14 : after python and source command go to the sample code directory and run the PIP INSTALL COMMAND finally run the PYTHON MAIN.PY

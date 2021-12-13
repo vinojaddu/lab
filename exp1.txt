@@ -1,0 +1,12 @@
+step 1 : Open terminal where workstation is present
+step 2 : ls and copy the file name
+step 3 : chmod a+x *file name*
+step 4 : sudo ./*file name*
+
+uninstall :
+
+step 1 : sudo -i
+step 2 : vmware-installer -u vmware-workstation
+
+CLOUDSIM :
+git clone https://github.com/michaelfahmy/cloudsim-task-scheduling
